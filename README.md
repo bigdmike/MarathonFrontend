@@ -1,7 +1,7 @@
 # marathon-frontend
 
 ## 專案文件
-請用 draw.io 打開 ```document/MarathonDashboard.xml```
+請用 <a href="draw.io">draw.io</a> 打開 ```document/MarathonDashboard.xml```
 
 ## 環境安裝
 下載安裝 <a href="nodejs.org/en/ ">node.js</a>
