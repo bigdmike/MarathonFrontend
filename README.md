@@ -1,24 +1,37 @@
 # marathon-frontend
 
-## Project setup
+## 專案文件
+請用 draw.io 打開 ```document/MarathonDashboard.xml```
+
+## 環境安裝
+下載安裝 <a href="nodejs.org/en/ ">node.js</a>
+
+node安裝完後，接著使用npm安裝vue cli
+
 ```
-yarn install
+npm install -g @vue/cli
 ```
 
-### Compiles and hot-reloads for development
+### 使用前安裝必要資源 (需進入專案資料夾)
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+npm install
 ```
 
-### Lints and fixes files
+### 啟動專案  (需進入專案資料夾)
 ```
-yarn lint
+npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 功能分頁
+```
+ip + /#/  為折馬拉松模式
+ip + /#/BackNForth  為折返跑模式
+ip + /#/Controller  為控制器
+
+```
+### 修改WebSocket後端的IP連線地址
+在 ```src/App.vue``` 中找到 ```connect_ip```
+
+```js
+private connect_ip: String = "IP位置";
+```
